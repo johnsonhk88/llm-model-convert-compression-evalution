@@ -1,0 +1,14 @@
+transformers>=4.52.1
+llmcompressor==0.12.0
+compressed-tensors==0.17.1
+datasets==5.0.0
+
+# cuda version 13.0
+torch==2.11.0 --index-url https://download.pytorch.org/whl/cu130
+torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu130
+torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cu130
+
+# 
+openai==2.30.0
+guidellm==0.6.0
+lm_eval[hf,api]
