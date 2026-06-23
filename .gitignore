@@ -4,7 +4,10 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 
-
+MODEL_DIR/
+models/
+.env
+.venv/
 .ipynb_checkpoints/
 
 mlflow.db

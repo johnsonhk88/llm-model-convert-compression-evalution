@@ -12,3 +12,6 @@ torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cu130
 openai==2.30.0
 guidellm==0.6.0
 lm_eval[hf,api]
+jupyterlab
+python-dotenv
+huggingface_hub
